@@ -14,7 +14,11 @@ During the second week, I was asked to develop a basic functioning prototype of 
 https://github.com/FPGAwars/icestudio/issues/410. 
 
 Then I started working on next week's task which was to create a basic prototype of the Python back-end using threads. It consisted on implementing basic Python driver blocks and setting up appropriate connections using wires.
-The issue and the pull request can be found on:
+
+The project can be found on:
+https://github.com/JdeRobot/VisualCircuit/tree/experimental
+
+The Addition of Modules issue and the pull request can be found on:
 https://github.com/JdeRobot/VisualCircuit/issues/13
 
 The YouTube video can be found on:
