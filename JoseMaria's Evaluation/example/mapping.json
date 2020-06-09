@@ -1,0 +1,17 @@
+{
+  "mapping":
+  [
+    {
+    "block_name": "camera",
+    "input_wires": [],
+    "output_wires": ["1"],
+    "parameters": []
+    },
+    {
+    "block_name": "screen",
+    "input_wires": ["1"],
+    "output_wires": [],
+    "parameters": []
+    }
+  ]
+}
