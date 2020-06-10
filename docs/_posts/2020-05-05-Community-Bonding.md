@@ -26,3 +26,5 @@ https://www.youtube.com/watch?v=bemMHKJL1Iw
 
 ## Week-3
 During the third week, the threaded application was to be converted into a multi-process based solution as Python threading module does not support multiple cores due to Global Interpreter Lock (GIL). This was challenging because all of the driver blocks needed to be run on seperate processes at fast iterations with minimal overhead. As the wires between the blocks were shared memory so the  processes were not mutually exclusive and I needed to synchronize them to prevent race conditions. The solution which I went with was shared memory in the Python multiprocessing module. The shared memory was basically a numpy array with fixed size created using the multiprocessing.Array() function. There was a Wire class that acted as an interface for reading, writing and synchronizing the shared memory. Each instance of wire inherited the shared memory and was passed into its corresponding process. The processes used this Wire instance to read and write to the shared memory.
+
+![alt_text]({{ "assets/images/week3.jpg" | absolute_url }})
