@@ -45,10 +45,8 @@ def handler(element, def_param=(lock, array)):
             frame = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
             
             lock.acquire()
-            print("lock camera")
             array[:,:] = frame[:,:]
             lock.release()
-            print("unlock camera")
             
     elif element == 'screen':
     
@@ -58,10 +56,8 @@ def handler(element, def_param=(lock, array)):
         while True:
 
             lock.acquire()
-            print("lock screen acquired")
-            img[:,:] = array[:,:]
+            img = array.copy()
             lock.release()
-            print("lock screen released")
             
             cv.imshow("Screen", img)
             if cv.waitKey(1) & 0xFF == ord('q'):
@@ -79,7 +75,4 @@ if __name__ == '__main__':
         print(element["block_name"])
         args.append(element["block_name"])
 
-    pool.map(handler, args)
-    
-    
-    
+pool.map(handler, args)
