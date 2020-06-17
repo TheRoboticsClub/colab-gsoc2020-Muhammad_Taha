@@ -1,0 +1,35 @@
+{
+  "mapping":
+  [
+    {
+    "block_name": "camera",
+    "input_wires": [],
+    "output_wires": ["1"],
+    "parameters": []
+    },
+    {
+      "block_name": "color_filter",
+      "input_wires": ["1"],
+      "output_wires": ["2"],
+      "parameters": []
+    },
+    {
+      "block_name": "edge_detector",
+      "input_wires": ["1"],
+      "output_wires": ["3"],
+      "parameters": ["0.3"]
+    },
+    {
+      "block_name": "screen",
+      "input_wires": ["2"],
+      "output_wires": [],
+      "parameters": []
+    },
+    {
+      "block_name": "screen",
+      "input_wires": ["3"],
+      "output_wires": [],
+      "parameters": []
+    }
+  ]
+}
