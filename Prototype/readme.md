@@ -5,6 +5,7 @@ python3 main.py
 
 # Dependencies:
 pip install opencv-python
+
 pip install posix_ipc
 
 
