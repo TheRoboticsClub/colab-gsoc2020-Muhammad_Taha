@@ -16,7 +16,7 @@ description              : "GSoC Progress Tracking"
 url                      : "https://jderobot.github.io/VisualCircuit/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/JdeRobot/VisualCircuit"
-teaser                   : "https://raw.githubusercontent.com/JdeRobot/VisualCircuit/master/docs/assets/images/logo.png"
+teaser                   : #"https://raw.githubusercontent.com/JdeRobot/VisualCircuit/master/docs/assets/images/logo.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
