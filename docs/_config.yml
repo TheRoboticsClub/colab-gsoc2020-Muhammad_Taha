@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en"
-title                    : "JdeRobot"
+title                    : "VisualCircuit Blog - JdeRobot"
 title_separator          : "-"
 name                     : "VisualCircuit Tool"
 description              : "GSoC Progress Tracking"
