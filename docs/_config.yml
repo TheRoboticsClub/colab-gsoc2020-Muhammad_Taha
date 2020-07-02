@@ -84,7 +84,7 @@ analytics:
 # Site Author
 author:
   name             : "Muhammad Taha Suhail"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/jde.png"
   bio              : "GSoC'2020 Participant"
   location         : "Pakistan"
   email            :
